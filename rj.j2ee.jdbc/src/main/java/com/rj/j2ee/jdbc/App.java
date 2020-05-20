@@ -6,10 +6,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.util.Enumeration;
 
-import org.apache.commons.io.FileUtils;
-
-import sun.jdbc.odbc.JdbcOdbcDriver;
-
 
 /**
  * Hello world!
