@@ -12,10 +12,7 @@
 		<org.springframework.version>5.1.1.RELEASE</org.springframework.version>
 		<encoding>UTF-8</encoding>
 	</properties>
-
-
 	<dependencies>
-
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
@@ -26,28 +23,22 @@
 			<artifactId>spring-beans</artifactId>
 			<version>${org.springframework.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.11</version>
+			<version>8.0.20</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.apache.derby/derbynet -->
-		 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${org.springframework.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>${org.springframework.version}</version>
 		</dependency>
-			<dependency>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework.version}</version>
@@ -58,5 +49,4 @@
 			<version>${org.springframework.version}</version>
 		</dependency>
 	</dependencies>
-
 </project>
